@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1csyl4p1elwx"]
+
+[ext_resource type="PackedScene" uid="uid://bmuyki3yfgneh" path="res://player.tscn" id="1_m0433"]
+[ext_resource type="PackedScene" uid="uid://ck427dnmmavfr" path="res://trees.tscn" id="2_u48rb"]
+[ext_resource type="PackedScene" uid="uid://c1bisik6ajwdh" path="res://mob_slime.tscn" id="3_rgj6i"]
+
+[node name="ShootEmUp" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 1924.0
+offset_bottom = 1065.0
+color = Color(0.901961, 1, 1, 1)
+
+[node name="Player" parent="." instance=ExtResource("1_m0433")]
+position = Vector2(795, 436)
+
+[node name="Tree" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(416, 782)
+
+[node name="Tree2" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(1590, 403)
+
+[node name="Tree3" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(1491, 496)
+
+[node name="Tree6" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(1491, 496)
+
+[node name="Tree7" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(446, 413)
+
+[node name="Tree8" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(989, 352)
+
+[node name="Tree4" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(1543, 878)
+
+[node name="Tree5" parent="." instance=ExtResource("2_u48rb")]
+position = Vector2(1147, 333)
+
+[node name="MobSlime" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(1043, 881)
+
+[node name="MobSlime2" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(1225, 636)
+
+[node name="MobSlime3" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(183, 371)
+
+[node name="MobSlime4" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(1721, 984)
+
+[node name="MobSlime5" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(264, 935)
+
+[node name="MobSlime6" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(1357, 181)
+
+[node name="MobSlime7" parent="." instance=ExtResource("3_rgj6i")]
+position = Vector2(1525, 663)
