@@ -43,22 +43,29 @@ position = Vector2(1543, 878)
 position = Vector2(1147, 333)
 
 [node name="MobSlime" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(1043, 881)
 
 [node name="MobSlime2" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(1225, 636)
 
 [node name="MobSlime3" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(183, 371)
 
 [node name="MobSlime4" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(1721, 984)
 
 [node name="MobSlime5" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(264, 935)
 
 [node name="MobSlime6" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(1357, 181)
 
 [node name="MobSlime7" parent="." instance=ExtResource("3_rgj6i")]
+visible = false
 position = Vector2(1525, 663)

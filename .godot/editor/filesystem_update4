@@ -1,4 +1,6 @@
 res://player.tscn
 res://gun.tscn
-res://gun.gd
 res://mob_slime.tscn
+res://shoot_em_up.tscn
+res://gun.gd
+res://player.gd
